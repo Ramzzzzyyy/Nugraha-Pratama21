@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrasi Anggota Perpustakaan</title>
+</head>
+<body>
+	<h1>Registrasi Anggota Perpustakaan SMKN 4 JAKARTA</h1>
+	<form>
+		<label for="nama">Nama Lengkap:</label><br>
+		<input type="text" id="nama" name="nama"><br>
+		<label for="kelas">Kelas:</label><br>
+	<select id="kelas" name="kelas">
+		<option value="kelas 10">Kelas 10</option>
+		<option value="kelas 11">Kelas 11</option>
+		<option value="kelas 12">Kelas 12</option>
+		<option value="kelas 13">Kelas 13</option>
+	</select><br>
+	<label for="jurusan">jurusan:</label><br>
+	<select id="jurusan" name="jurusan">
+		<option value="TKJ">TKJ</option>
+		<option value="TMK">TMK</option>
+		<option value="TPL">TPL</option>
+		<option value="TKR">TKR</option>
+		<option value="AUDIO VIDEO">AUDIO VIDEO</option>
+		<option value="TF">TF</option>
+		<option value="TITL">TITL</option>
+		<option value="KGSP">KGSP</option>
+	</select><br>
+	<label for="nis">Nomor Induk Siswa:</label>
+<input type="number" id="nis" name="nis"><br>
+
+			
+<label for="email">Alamat Email:</label><br>
+	<input type="email" id="email" name="email"><br>
+
+	<label for="password">Password:</label><br>
+	<input type="password" id="password" name="password"><br>
+
+	<label for="alamat">Alamat:</label><br>
+	<textarea id="alamat" name="alamat" rows="4" cols="50"></textarea><br>
+
+	<label for="telepon">Nomor Telepon:</label><br>
+	<input type="tel" id="telepon" name="telepon"><br>
+
+	<label for="tanggal_lahir">Tanggal Lahir:</label><br>
+	<input type="date" id="tanggal_lahir" name="tanggal_lahir"><br>
+	<label for="gender">Jenis Kelamin:</label><br>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Laki-laki</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Perempuan</label><br>
+
+
+	<input type="submit" value="Submit">
+</form>
+</body>
+</html>
